@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from '../styles/home.module.css';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { PageLayoutWithSEO, AppComponent, Header } from '@components';
-
+import styles from '../styles/home.module.css';
 const HomePage: React.FunctionComponent<any> = () => {
   const { t } = useTranslation('common');
 
@@ -18,6 +17,7 @@ const HomePage: React.FunctionComponent<any> = () => {
       <link
         href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css'
         rel='stylesheet'
+        crossOrigin="anonymous"
         integrity='sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6'
       />
       <Header text_btn1={t('btn-text1')} text_btn2={t('btn-text2')} />
