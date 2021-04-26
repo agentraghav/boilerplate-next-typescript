@@ -78,7 +78,7 @@ p {
 }
 
 .next-logo {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png');
+  background-image: url(../assets/images/next-logo.png);
   background-repeat: no-repeat;
   width: 250px;
   height: 100px;
@@ -89,7 +89,7 @@ p {
 }
 
 .base-logo {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Base-web-logo-monochrome.svg/1200px-Base-web-logo-monochrome.svg.png');
+  background-image: url(../assets/images/baseweb-logo.png);
   background-repeat: no-repeat;
   width: 200px;
   height: 50px;
@@ -101,7 +101,7 @@ p {
 }
 
 .storybook-logo {
-  background-image: url('https://pbs.twimg.com/profile_images/1100804485616566273/sOct-Txm_400x400.png');
+  background-image: url(../assets/images/storybook-logo.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 70px;
@@ -113,7 +113,7 @@ p {
 }
 
 .ts-logo {
-  background-image: url('https://img.icons8.com/ios/452/typescript.png');
+  background-image: url(../assets/images/ts-logo.png);
   background-repeat: no-repeat;
   width: 140px;
   height: 70px;
@@ -123,7 +123,7 @@ p {
 }
 
 .i18n-logo {
-  background-image: url('https://gblobscdn.gitbook.com/spaces%2F-L9iS6Wm2hynS5H9Gj7j%2Favatar.png?alt=media');
+  background-image: url(../assets/images/i18n-logo.png);
   background-repeat: no-repeat;
   width: 140px;
   height: 70px;
@@ -133,7 +133,7 @@ p {
 }
 
 .jest-logo {
-  background-image: url('data:image/png;base64,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');
+  background-image: url(../assets/images/jest-logo.png);
   background-repeat: no-repeat;
   width: 120px;
   height: 60px;
@@ -144,7 +144,7 @@ p {
 }
 
 .formik-logo {
-  background-image: url('https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png');
+  background-image: url(../assets/images/formik-logo.png);
   background-repeat: no-repeat;
   width: 120px;
   height: 70px;
@@ -153,7 +153,7 @@ p {
 }
 
 .eslint-logo {
-  background-image: url('https://cdn.worldvectorlogo.com/logos/eslint.svg');
+  background-image: url(../assets/images/eslint-logo.png);
   background-repeat: no-repeat;
   width: 100px;
   height: 70px;
@@ -162,7 +162,7 @@ p {
 }
 
 .seo-logo {
-  background-image: url('https://cdn1.iconfinder.com/data/icons/web-design-seo/512/25-512.png');
+  background-image: url(../assets/images/seo-logo.png);
   background-repeat: no-repeat;
   width: 100px;
   height: 80px;
@@ -172,7 +172,7 @@ p {
 }
 
 .sentry-logo {
-  background-image: url("https://brandslogos.com/wp-content/uploads/images/large/sentry-logo-black-and-white.png");
+  background-image: url(../assets/images/sentry-logo.png);
   background-repeat: no-repeat;
   width: 100px;
   height: 60px;
