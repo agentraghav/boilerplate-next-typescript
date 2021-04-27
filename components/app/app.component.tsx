@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'next-i18next';
-import nextLogo from "../../assets/images/next-logo.png"
 const AppComponent: React.FC = () => {
   const { t } = useTranslation('common');
   return (
@@ -22,7 +21,7 @@ const AppComponent: React.FC = () => {
         <div
           className='next-logo'
           style={{
-            backgroundImage: `url(${nextLogo})`,
+            backgroundImage: "url(" + `${require('@assets/images/next-logo.png')}`+ ")",
           }}></div>
         <div className='base-logo'></div>
         <div className='eslint-logo'></div>
