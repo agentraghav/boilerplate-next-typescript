@@ -5,7 +5,7 @@
   "scripts": {
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook",
-    "dev": "ts-node --project tsconfig.server.json server/index.ts",
+    "dev": "next dev",
     "build:server": "tsc --project tsconfig.server.json",
     "build:next": "next build",
     "build": "npm run build:next && npm run build:server",
