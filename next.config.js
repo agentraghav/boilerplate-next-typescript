@@ -1,9 +1,6 @@
+const withCSS = require('@zeit/next-css')
 const { i18n } = require('./next-i18next.config');
 const withImages = require('next-images');
 module.exports = withImages({
-  fileExtensions: ['jpg', 'jpeg', 'png', 'gif'],
-  i18n,
-  webpack(config, options) {
-    return config
-  }
+  i18n,  
 });

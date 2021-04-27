@@ -22,7 +22,8 @@ const AppComponent: React.FC = () => {
         <div
           className='next-logo'
           style={{
-            backgroundImage: "url(/static/images/next-logo.png)",
+            backgroundImage:
+               "url(" + `${require('../../assets/images/next-logo.png')}`+ ")",
           }}></div>
         <div className='base-logo'></div>
         <div className='eslint-logo'></div>
