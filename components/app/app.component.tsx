@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'next-i18next';
+import {ImageLogo} from '@components';
 const AppComponent: React.FC = () => {
   const { t } = useTranslation('common');
   return (
@@ -33,6 +34,7 @@ const AppComponent: React.FC = () => {
         <div className='jest-logo'></div>
         <div className='formik-logo'></div>
       </div>
+      <ImageLogo src={'/logo.png'} alt='logo' />
     </React.Fragment>
   );
 };
