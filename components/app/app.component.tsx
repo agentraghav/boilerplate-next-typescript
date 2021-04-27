@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'next-i18next';
-import nextLogo from "@assets/images/next-logo.png"
+import nextLogo from "../../assets/images/next-logo.png"
 const AppComponent: React.FC = () => {
   const { t } = useTranslation('common');
   return (
