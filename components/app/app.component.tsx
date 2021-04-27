@@ -21,7 +21,7 @@ const AppComponent: React.FC = () => {
         <div
           className='next-logo'
           style={{
-            backgroundImage: "url(/next-logo.png)",
+            backgroundImage: "url(/next-logo.jpg)",
           }}></div>
         <div className='base-logo'></div>
         <div className='eslint-logo'></div>
