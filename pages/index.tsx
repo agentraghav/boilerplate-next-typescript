@@ -10,7 +10,7 @@ const { t } = useTranslation('common');
 
   return (
     <>
-        
+       <div className='next-logo'></div>
     </>
   );
 };
