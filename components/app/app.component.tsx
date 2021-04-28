@@ -19,12 +19,7 @@ const AppComponent: React.FC = () => {
             </span>{' '}
           </p>
         </div>
-        <div
-          className='next-logo'
-          style={{
-            backgroundImage:
-               `url(${'/static/images/next-logo.png'})`,
-          }}></div>
+        <div className='next-logo'></div>
         <div className='base-logo'></div>
         <div className='eslint-logo'></div>
         <div className='storybook-logo'></div>
