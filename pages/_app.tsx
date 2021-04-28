@@ -1,4 +1,4 @@
-import '../styles/styles.css';
+// import '../styles/styles.css';
 import React from 'react';
 import * as Sentry from '@sentry/react';
 import CONFIG from '@config';
@@ -8,12 +8,6 @@ import type { AppProps } from 'next/app';
 if (CONFIG.sentryDSN) {
   Sentry.init({ dsn: CONFIG.sentryDSN });
 }
-
-/**
- * Some documented component
- *
- * @component
- */
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
