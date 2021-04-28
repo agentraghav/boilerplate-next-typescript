@@ -6,7 +6,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { PageLayoutWithSEO, AppComponent, Header } from '@components';
 import styles from '../styles/home.module.css';
 const HomePage: React.FunctionComponent<any> = () => {
-  // const { t } = useTranslation('common');
+const { t } = useTranslation('common');
 
   return (
     <>
